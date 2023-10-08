@@ -138,7 +138,15 @@ letter-spacing: 0.02em;
 
 .hero {
     background-color:#2E2F42;
+        background-image: linear-gradient(
+          rgba(46, 47, 66, 0.70),
+      rgba(46, 47, 66, 0.70)
+        ),
+        url(../images/hero-back.jpg); 
     padding: 188px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-title {
@@ -207,6 +215,13 @@ letter-spacing: 0.02em;
 width: calc((100% - 72px) / 4);
 border-radius: 0px 0px 4px 4px;
 }
+.icon-container{
+  border-radius: 4px;
+border: 1px solid  #8E8F99;
+background: #F4F4FD;
+padding: 24px 100px;
+margin-bottom: 8px;
+}
 .advantages-subtitle {
     color:#2E2F42;
     margin-bottom: 8px; 
@@ -242,8 +257,8 @@ margin-bottom: 72px;
 }
 .team-list {
   display: flex;
-  gap: 24px;
-  padding: 120px 0:
+    gap: 24px;
+  padding: 120px 0;
   
   
   
@@ -261,7 +276,12 @@ margin-bottom: 72px;
   border-radius: 0px 0px 4px 4px; 
 }
 .container-worker{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    align-items: center;
   padding: 32px 0;
+
 }
 .team-subtitle {
     background-color: #FFFFFF;
@@ -283,6 +303,20 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 
+}
+.soc-media-list{
+  display: flex;
+  gap:24px;
+  margin-top:8px ;
+ 
+}
+.team-soc-link{
+  border-radius:50%;
+  background-color:#4D5AE5;
+  padding: 12px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -307,23 +341,45 @@ margin-bottom: 72px;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
- 
+
+
+  
   
 }
 .portfolio-item{
   width: calc((100% - 48px) / 3);
- 
+         position: relative;
+    overflow: hidden;
+}
+.test-test{
+  padding: 40px 32px;
+  background-color: #4D5AE5;
+    color: #F4F4FD;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms ease-in-out;
 }
 
 
+
+
 .text-portfolio {
- 
+  
+   
   
   
   border: 1px solid #e7e9fc;
   border-top: none;
   padding: 32px 16px;
   
+}
+.portfolio-item:hover .test-test{
+  transform: translateY(0);
 }
 .portfolio-subtitle {
     color:#2E2F42;
@@ -352,6 +408,7 @@ letter-spacing: 0.02em;
 .footer {
     background-color:#2E2F42;
     padding: 100px 0;
+   
 }
 .footer-logo {
     color: #4d5ae5;
@@ -379,4 +436,31 @@ font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 width: 264px;
+}
+.foot-soc-link{
+  border-radius: 50%;
+    background-color: #4D5AE5;
+    padding: 12px;
+    display: inline-flex;
+    justify-content: center;
+  align-items: center;
+  
+    
+}
+.footer-link{
+display: flex;
+  gap: 16px;
+      
+  }
+.con-fotter-links{
+  position: relative;
+  justify-content: center;
+    top: -115px;
+      left: 400px;
+}
+.footer-media{
+  color:  #FFF;
+  font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 16px;
 }
