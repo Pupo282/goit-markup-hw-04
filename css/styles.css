@@ -95,16 +95,7 @@ margin-right: 76px;
 .header-menu-item {
  
 }
-.header-menu-list::after{
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .header-menu-link {
     color:#2E2F42;
 font-size: 16px;
@@ -123,6 +114,16 @@ gap: 40px;
 }
 .header-menu-link:focus{
   color: #404bbf
+}
+.header-menu-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-soc{
   font-style: normal; 
