@@ -287,8 +287,7 @@ margin-bottom: 72px;
 }
 .container-team {
   padding: 120px 0;
-}
-.team-item {
+
   width: calc((100% - 72px) / 4);
      background-color: #FFFFFF;
    
