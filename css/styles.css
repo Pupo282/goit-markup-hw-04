@@ -351,10 +351,12 @@ letter-spacing: 0.02em;
   align-items: center;
 }
 
-.team-soc-link :focus :hover{
+.team-soc-link :focus {
 background-color: #404bbf;
 }
-
+.team-soc-link  :hover {
+  background-color: #404bbf;
+}
 .our-portfolio{
   padding-top: 120px;
   padding-bottom: 120px;
