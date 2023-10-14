@@ -447,9 +447,10 @@ letter-spacing: 0.02em;
    
 }
 
-.footer .container{
-  display: flex;
-    gap: 120px;
+
+.list-footer-all {
+display: flex;
+  gap: 120px;
 }
 .footer-logo {
     color: #4d5ae5;
@@ -488,6 +489,10 @@ width: 264px;
   
     
 }
+.foot-soc-link:hover{
+
+}
+
 .footer-list{
 display: flex;
   gap: 16px;
