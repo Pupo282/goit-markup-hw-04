@@ -446,6 +446,11 @@ letter-spacing: 0.02em;
     padding: 100px 0;
    
 }
+
+.footer .container{
+  display: flex;
+    gap: 120px;
+}
 .footer-logo {
     color: #4d5ae5;
 font-family: "Raleway",sans-serif;
@@ -476,24 +481,23 @@ width: 264px;
 .foot-soc-link{
   border-radius: 50%;
     background-color: #4D5AE5;
-    padding: 12px;
+    padding: 8px;
     display: inline-flex;
     justify-content: center;
   align-items: center;
   
     
 }
-.footer-link{
+.footer-list{
 display: flex;
   gap: 16px;
       
   }
-.con-footer-links{
-  position: relative;
-  justify-content: center;
-    top: -115px;
-      left: 400px;
-}
+
+  
+  
+   
+
 .footer-media{
   color:  #FFF;
   font-size: 16px;
